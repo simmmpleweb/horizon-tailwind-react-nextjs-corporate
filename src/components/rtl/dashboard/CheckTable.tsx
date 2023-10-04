@@ -113,7 +113,7 @@ function CheckTable(props: { tableData: any }) {
                       key={header.id}
                       colSpan={header.colSpan}
                       onClick={header.column.getToggleSortingHandler()}
-                      className="cursor-pointer border-b border-gray-200 pb-2 pe-4 pt-4 text-start dark:border-white/30"
+                      className="cursor-pointer border-b-[1px] border-gray-200 pb-2 pe-4 pt-4 text-start"
                     >
                       <div className="items-center justify-between text-xs text-gray-200">
                         {flexRender(
