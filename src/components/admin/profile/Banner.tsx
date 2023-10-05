@@ -12,7 +12,13 @@ const Banner = () => {
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="absolute -bottom-12 flex h-[87px] w-[87px] items-center justify-center rounded-full border-[4px] border-white dark:!border-navy-700">
-          <img className="h-full w-full rounded-full" src={avatar} alt="" />
+          <Image
+            width="2"
+            height="20"
+            className="h-full w-full rounded-full"
+            src={avatar}
+            alt=""
+          />
         </div>
       </div>
 
