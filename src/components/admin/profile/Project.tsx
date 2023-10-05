@@ -18,7 +18,7 @@ const Project = () => {
         </p>
       </div>
       {/* Project 1 */}
-      <div className="flex w-full items-center justify-between rounded-2xl bg-white p-3 shadow-2xl shadow-gray-200 dark:!bg-navy-700 dark:shadow-none">
+      <div className="flex w-full items-center justify-between rounded-md border-[1px] border-gray-200 bg-white bg-clip-border p-3 shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
         <div className="flex items-center">
           <div className="">
             <Image
@@ -49,7 +49,7 @@ const Project = () => {
         </div>
       </div>
       {/* Project 1 */}
-      <div className="mt-3 flex w-full items-center justify-between rounded-2xl bg-white p-3 shadow-2xl shadow-gray-200 dark:!bg-navy-700 dark:shadow-none">
+      <div className="mt-3 flex w-full items-center justify-between rounded-md border-[1px] border-gray-200 bg-white bg-clip-border p-3 shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
         <div className="flex items-center">
           <div className="">
             <Image
@@ -80,7 +80,7 @@ const Project = () => {
         </div>
       </div>
       {/* Project 1 */}
-      <div className="mt-3 flex w-full items-center justify-between rounded-2xl bg-white p-3 shadow-2xl shadow-gray-200 dark:!bg-navy-700 dark:shadow-none">
+      <div className="mt-3 flex w-full items-center justify-between rounded-md border-[1px] border-gray-200 bg-white bg-clip-border p-3 shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
         <div className="flex items-center">
           <div className="">
             <Image
@@ -89,7 +89,7 @@ const Project = () => {
               className="h-[83px] w-[83px] rounded-lg"
               src={image2}
               alt=""
-            />
+            />{' '}
           </div>
           <div className="ml-4">
             <p className="text-base font-medium text-navy-700 dark:text-white">
