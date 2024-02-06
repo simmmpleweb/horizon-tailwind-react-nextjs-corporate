@@ -1,6 +1,6 @@
 {
   "name": "horizon-tailwind-react-nextjs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/hooks": "^2.1.4",
@@ -24,7 +24,7 @@
     "react": "^18.2.0",
     "react-apexcharts": "1.4.0",
     "react-calendar": "^3.9.0",
-    "next": "^13.3.2",
+    "next": "^14.0.2",
     "next-transpile-modules": "^9.0.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -32,7 +32,7 @@
     "react-scripts": "5.0.1",
     "react-no-ssr": "^1.1.0",
     "tailwindcss-rtl": "^0.9.0",
-    "typescript": "^4.7.4",
+    "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
